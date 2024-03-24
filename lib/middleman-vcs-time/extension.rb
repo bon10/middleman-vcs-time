@@ -2,7 +2,7 @@ module Middleman
   module VCSTime
     # Middleman extension
     class Extension < ::Middleman::Extension
-      def initialize(app, **options_hash, &block)
+      def initialize(app, options_hash = {}, &block)
         super
 
         require 'middleman-vcs-time/systems/fallback'
