@@ -3,7 +3,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |gem|
   # Identity
   gem.name     = 'middleman-vcs-time'
-  gem.version  = '0.0.6'
+  gem.version  = '0.0.7'
   gem.homepage = 'https://github.com/AndrewKvalheim/middleman-vcs-time'
   gem.summary  = 'Use version control to determine last-modified times of ' \
                  'Middleman resources.'
@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.platform              = Gem::Platform::RUBY
-  gem.required_ruby_version = '~> 2.2'
+  gem.required_ruby_version = '~> 3'
   gem.add_runtime_dependency 'middleman-core', '~> 4.0'
 
   # Development dependencies

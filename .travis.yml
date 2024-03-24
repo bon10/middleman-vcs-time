@@ -5,6 +5,7 @@ rvm:
   - 2.2.8
   - 2.3.5
   - 2.4.2
+  - 3.3.0
 gemfile:
   - gemfiles/middleman_4.0.gemfile
   - gemfiles/middleman_4.1.gemfile
